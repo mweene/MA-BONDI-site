@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;900&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+header {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: 1em 1.3em;
+    }
+
+    .logo {
+        width: 12em;
+        align-self: center;
+    }
+
+    .nav-list {
+        display: inline-flex;
+        align-items: center;
+        list-style: none;
+        gap: 1em;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.4em;
+        color: #000;
+        cursor: pointer;
+
+        &:hover {
+            color: crimson;
+            text-decoration: underline;
+        }
+    }
+
+    .cta {
+        border: 2px solid #000;
+        border-radius: 5px;
+        padding: .3em .6em;
+        transition: 150ms ease-in all;
+
+        &:hover {
+            color: hsl(0, 0%, 100%);
+            background-color: #000;
+            padding: .39em .67em;
+            text-decoration: none;
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+//MOBILE MEDIA QUERIES
+
+@media  screen and (max-width: 480px) {
+    .nav-link {
+        display: none;
+    }
+    header{
+        .navbar {
+            border-bottom: 2px solid hsla(0, 0%, 0%, 0.13);
+            padding-bottom: .7em;
+        }
+
+        .logo {
+            width: 8em;
+        }
+
+        .menu {
+            display: block;
+            height: 1.5em;
+            align-self: center;
+            cursor: pointer;
+        }
+    }
+}
