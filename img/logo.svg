@@ -7,8 +7,8 @@
    viewBox="0 0 1034.7008 253.37006"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   sodipodi:docname="logo2.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png.png"
    inkscape:export-xdpi="63.843246"
    inkscape:export-ydpi="63.843246"
@@ -30,7 +30,7 @@
      units="px"
      width="1052.7008px"
      inkscape:zoom="0.39776886"
-     inkscape:cx="423.61285"
+     inkscape:cx="304.19676"
      inkscape:cy="211.17792"
      inkscape:window-width="1366"
      inkscape:window-height="715"
@@ -38,7 +38,9 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     height="253.37006px" />
+     height="253.37006px"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2" />
   <g
@@ -59,49 +61,49 @@
     <path
        d="m 263.74147,72.39609 h 36.68745 l 25.23587,61.49918 h 1.2724 l 25.23587,-61.49918 h 36.68745 v 108.57787 h -28.841 v -62.77157 h -0.84826 l -24.17554,61.92331 h -17.38944 l -24.17554,-62.34745 h -0.84826 v 63.19571 h -28.841 z"
        id="path10848"
-       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#979797;fill-opacity:1;stroke-width:3.73235"
+       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#333333;fill-opacity:1;stroke-width:3.73235"
        inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png"
        inkscape:export-xdpi="63.843246"
        inkscape:export-ydpi="63.843246" />
     <path
        d="M 431.06165,180.97396 H 399.25172 L 435.09091,72.39609 h 40.29256 l 35.83919,108.57787 h -31.80993 l -23.7514,-78.67654 h -0.84827 z M 425.1238,138.1366 h 59.80266 v 22.05488 H 425.1238 Z"
        id="path10850"
-       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#979797;fill-opacity:1;stroke-width:3.73235"
+       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#333333;fill-opacity:1;stroke-width:3.73235"
        inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png"
        inkscape:export-xdpi="63.843246"
        inkscape:export-ydpi="63.843246" />
     <path
        d="M 551.30315,180.97396 V 72.39609 h 47.07869 q 12.40587,0 20.8355,3.34004 8.48264,3.34005 12.77699,9.43695 4.34736,6.0969 4.34736,14.36748 0,5.99086 -2.65083,10.92141 -2.59782,4.93054 -7.31629,8.27058 -4.71846,3.28702 -11.02744,4.55942 v 1.06033 q 6.99819,0.26509 12.72398,3.55211 5.72578,3.23401 9.11884,8.95979 3.39306,5.67278 3.39306,13.36017 0,8.90678 -4.66546,15.85195 -4.61243,6.94516 -13.1481,10.92141 -8.53566,3.97623 -20.35836,3.97623 z m 29.47719,-23.53934 h 13.78431 q 7.42231,0 11.13347,-2.75685 3.71116,-2.80988 3.71116,-8.27058 0,-3.8172 -1.74954,-6.46803 -1.74955,-2.65082 -4.98356,-4.02926 -3.181,-1.37843 -7.68739,-1.37843 h -14.20845 z m 0,-41.14084 h 12.08778 q 3.87021,0 6.83913,-1.21937 2.96893,-1.21938 4.61244,-3.4991 1.69653,-2.33273 1.69653,-5.67276 0,-5.03658 -3.60513,-7.68741 -3.60512,-2.70384 -9.11884,-2.70384 h -12.51191 z"
        id="path10852"
-       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#333333;fill-opacity:1;stroke-width:3.73235"
+       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#f9f9f9;fill-opacity:1;stroke-width:3.73235"
        inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png"
        inkscape:export-xdpi="63.843246"
        inkscape:export-ydpi="63.843246" />
     <path
        d="m 756.15912,126.68503 q 0,18.13165 -7.0512,30.59054 -7.0512,12.40588 -19.03294,18.82088 -11.98173,6.36198 -26.72034,6.36198 -14.84463,0 -26.82637,-6.415 -11.92872,-6.46802 -18.97992,-18.87389 -6.99818,-12.45888 -6.99818,-30.48451 0,-18.13166 6.99818,-30.53753 7.0512,-12.45889 18.97992,-18.82088 11.98174,-6.415 26.82637,-6.415 14.73861,0 26.72034,6.415 11.98174,6.36199 19.03294,18.82088 7.0512,12.40587 7.0512,30.53753 z m -30.32546,0 q 0,-9.75505 -2.59781,-16.43513 -2.5448,-6.7331 -7.58137,-10.17918 -4.98355,-3.49909 -12.29984,-3.49909 -7.31628,0 -12.35285,3.49909 -4.98355,3.44608 -7.58137,10.17918 -2.54479,6.68008 -2.54479,16.43513 0,9.75505 2.54479,16.48814 2.59782,6.68009 7.58137,10.17918 5.03657,3.44607 12.35285,3.44607 7.31629,0 12.29984,-3.44607 5.03657,-3.49909 7.58137,-10.17918 2.59781,-6.73309 2.59781,-16.48814 z"
        id="path10854"
-       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#333333;fill-opacity:1;stroke-width:3.73235"
+       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#f9f9f9;fill-opacity:1;stroke-width:3.73235"
        inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png"
        inkscape:export-xdpi="63.843246"
        inkscape:export-ydpi="63.843246" />
     <path
        d="M 863.67658,72.39609 V 180.97396 H 839.0769 l -39.23223,-57.0458 h -0.6362 v 57.0458 H 769.73126 V 72.39609 h 25.02381 l 38.59605,56.83373 h 0.84826 V 72.39609 Z"
        id="path10856"
-       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#333333;fill-opacity:1;stroke-width:3.73235"
+       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#f9f9f9;fill-opacity:1;stroke-width:3.73235"
        inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png"
        inkscape:export-xdpi="63.843246"
        inkscape:export-ydpi="63.843246" />
     <path
        d="M 919.44992,180.97396 H 877.67289 V 72.39609 h 41.3529 q 16.75322,0 28.94698,6.52104 12.24693,6.46801 18.87403,18.66181 6.68,12.14079 6.68,29.10609 0,16.96529 -6.6271,29.1591 -6.627,12.14078 -18.76783,18.66182 -12.14079,6.46801 -28.68195,6.46801 z m -12.29983,-25.0238 h 11.2395 q 8.05852,0 13.73129,-2.59781 5.72578,-2.59782 8.69471,-8.95979 3.02198,-6.36199 3.02198,-17.70753 0,-11.34554 -3.075,-17.70753 -3.02194,-6.36198 -8.90678,-8.95979 -5.83182,-2.59782 -14.31447,-2.59782 h -10.39123 z"
        id="path10858"
-       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#333333;fill-opacity:1;stroke-width:3.73235"
+       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#f9f9f9;fill-opacity:1;stroke-width:3.73235"
        inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png"
        inkscape:export-xdpi="63.843246"
        inkscape:export-ydpi="63.843246" />
     <path
        d="M 1016.5761,72.39609 V 180.97396 H 987.099 V 72.39609 Z"
        id="path10860"
-       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#333333;fill-opacity:1;stroke-width:3.73235"
+       style="font-weight:900;font-size:142.949px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';fill:#f9f9f9;fill-opacity:1;stroke-width:3.73235"
        inkscape:export-filename="C:\Users\H\Documents\projects\web-projects\ma-bondi\img\logo2.png"
        inkscape:export-xdpi="63.843246"
        inkscape:export-ydpi="63.843246" />
