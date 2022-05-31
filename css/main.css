@@ -10,7 +10,7 @@
 
 html {
   font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -93,10 +93,6 @@ body .download {
   cursor: pointer;
 }
 
-body .apple {
-  background-color: black;
-}
-
 @media screen and (max-width: 480px) {
   .nav-link {
     display: none;
@@ -142,9 +138,22 @@ body .apple {
     font-weight: 300;
     line-height: 1.5;
   }
+  .top-sec-wrapper .download-buttons {
+    margin-top: 1em;
+  }
+  .top-sec-wrapper .download-buttons .apple {
+    height: 2.6em;
+  }
+  .top-sec-wrapper .download-buttons .google {
+    height: 2.6em;
+  }
   .top-sec-wrapper .top-sec-img {
     margin-top: 5em;
     height: 20em;
+  }
+  .top-sec-wrapper .bottom-img {
+    margin-top: 1.2em;
+    height: 15em;
   }
 }
 /*# sourceMappingURL=main.css.map */
