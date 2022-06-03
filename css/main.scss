@@ -6,10 +6,180 @@
     margin: 0;
 }
 
+$bg-color: #fffdf9c7;
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;900&display=swap');
 
 html {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
-    //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+// 1.0 Navbar
+header {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: .9em 2em;
+    }
+}
+
+.navbar {
+    img {
+        height: 3em;
+    }
+
+    ul {
+        list-style: none;
+        align-self: center;
+        justify-self: center;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.3em;
+        color: #fff;
+        background-color: #222;
+        border-radius: 5px;
+        padding: .5em 1.3em;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+// ./Navbar
+
+// 2.0 MAIN STYLING
+main {
+
+    .hero-sec-one {
+        margin: 7em 4em;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-content: center;
+        align-content: center;
+        gap: 9em;
+    }
+}
+
+.hero-sec-one {
+
+    .text {
+        h4 {
+            text-transform: uppercase;
+            font-size: 1.2em;
+            font-weight: 700;
+            color: #424242;
+            margin-bottom: .2em;
+            margin-top: .7em;
+        }
+
+        h1 {
+            text-transform: capitalize;
+            font-size: 6em;
+            font-weight: 900;
+            color: #161616;
+            line-height: 1;
+            margin-bottom: .5em;
+
+            span {
+                color: #0099ff;
+            }
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #272727;
+            line-height: 1.8;
+            margin-bottom: 1.9em;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        gap: .6em;
+
+        .cta-img {
+            height: 3.5em;
+        }
+    }
+
+    .phone-sec-one {
+        .phone {
+            height: 43em;
+            margin-top: -2em;
+        }
+    }
+}
+
+
+.hero-sec-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-content: center;
+    gap: 4em;
+    margin: .4em 4.5em;
+
+    .phone {
+        height: 50em;
+    }
+
+    .text {
+        margin-top: 2em;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: 700;
+        color: #424242;
+        margin-bottom: .2em;
+        margin-top: .7em;
+    }
+
+    h2 {
+        text-transform: capitalize;
+        font-size: 4.5em;
+        font-weight: 900;
+        color: #161616;
+        line-height: 1;
+        margin-bottom: .5em;  
+    }
+
+    p {
+        font-size: 1.2em;
+        color: #272727;
+        line-height: 1.8;
+        margin-bottom: 1.9em;
+    }
+
+    ul {
+        li {
+            display: flex;
+            gap: 2em;
+            line-height: 1.8;
+
+            h5 {
+                font-size: 1.5em;
+                font-weight: 300;
+            }  
+        }
+    }
+}
+
+.profiles {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.profiles-img {
+    filter: grayscale(100%);
+    margin: 3em 0;
+    height: 33em;
+    border-radius: 19px;
 }

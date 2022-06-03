@@ -12,4 +12,181 @@ html {
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: .9em 2em;
+}
+
+.navbar img {
+  height: 3em;
+}
+
+.navbar ul {
+  list-style: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.3em;
+  color: #fff;
+  background-color: #222;
+  border-radius: 5px;
+  padding: .5em 1.3em;
+}
+
+.navbar .menu {
+  display: none;
+}
+
+main .hero-sec-one {
+  margin: 7em 4em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 9em;
+}
+
+.hero-sec-one .text h4 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #424242;
+  margin-bottom: .2em;
+  margin-top: .7em;
+}
+
+.hero-sec-one .text h1 {
+  text-transform: capitalize;
+  font-size: 6em;
+  font-weight: 900;
+  color: #161616;
+  line-height: 1;
+  margin-bottom: .5em;
+}
+
+.hero-sec-one .text h1 span {
+  color: #0099ff;
+}
+
+.hero-sec-one .text p {
+  font-size: 1.2em;
+  color: #272727;
+  line-height: 1.8;
+  margin-bottom: 1.9em;
+}
+
+.hero-sec-one .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .6em;
+}
+
+.hero-sec-one .buttons .cta-img {
+  height: 3.5em;
+}
+
+.hero-sec-one .phone-sec-one .phone {
+  height: 43em;
+  margin-top: -2em;
+}
+
+.hero-sec-two {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 4em;
+  margin: .4em 4.5em;
+}
+
+.hero-sec-two .phone {
+  height: 50em;
+}
+
+.hero-sec-two .text {
+  margin-top: 2em;
+}
+
+.hero-sec-two h4 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #424242;
+  margin-bottom: .2em;
+  margin-top: .7em;
+}
+
+.hero-sec-two h2 {
+  text-transform: capitalize;
+  font-size: 4.5em;
+  font-weight: 900;
+  color: #161616;
+  line-height: 1;
+  margin-bottom: .5em;
+}
+
+.hero-sec-two p {
+  font-size: 1.2em;
+  color: #272727;
+  line-height: 1.8;
+  margin-bottom: 1.9em;
+}
+
+.hero-sec-two ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
+  line-height: 1.8;
+}
+
+.hero-sec-two ul li h5 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profiles-img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  margin: 3em 0;
+  height: 33em;
+  border-radius: 19px;
+}
 /*# sourceMappingURL=main.css.map */
