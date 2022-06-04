@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;900&display=swap'); 
+
 *,
 *::before,
 *::after {
@@ -7,8 +9,6 @@
 }
 
 $bg-color: #fffdf9c7;
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;900&display=swap');
 
 html {
     font-size: 16px;
@@ -175,11 +175,73 @@ main {
     display: flex;
     align-content: center;
     justify-content: center;
+    background-image: url(../img/2112.w026.n002.1253B.p1.1253.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 7em;
 }
 
-.profiles-img {
-    filter: grayscale(100%);
-    margin: 3em 0;
-    height: 33em;
-    border-radius: 19px;
+ // too much flex we need mixins
+.card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: .4em 1.5em;
+    border-radius: 15px;
+    color: #fff;
+    width: 27%;
+    margin-top: 7em;
+
+    .outer-layer {
+        display: inline-flex;
+        align-self: center;
+        justify-self: center;
+        flex-direction: column;
+        background-color: #111928bf;
+        height: 29em;
+        margin: 0 .5em;
+        border-radius: 22px;
+        border: 1px solid #ffffff20;
+        backdrop-filter: blur(14px) saturate(180%);
+
+    }
+
+    .house {
+        height: 11em;
+    }
+
+    h3 {
+        text-transform: capitalize;
+        font-size: 1.2em;
+        margin: .7em .6em;
+    }
+
+    p {
+        margin: 0 .6em;
+        font-weight: 200;
+        color: #e7dede;
+        line-height: 1.6;
+    }
+
+    .buttons {
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 2.5em;
+        gap: .7em;
+    }
+
+    button {
+        align-self: center;
+        border: 1px solid #fff;
+        padding: .8em 1.2em;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: .8em;
+        width: 60%;
+        border-radius: 6px;
+        color: #fff;
+        background-color: transparent;
+        cursor: pointer;
+    }
 }
