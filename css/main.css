@@ -94,9 +94,7 @@ main .hero-sec-one {
 }
 
 .hero-sec-one .text h1 span {
-  background: -webkit-linear-gradient(#00b7ff, #1c77ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #00b7ff;
 }
 
 .hero-sec-one .text p {
@@ -365,6 +363,12 @@ main .hero-sec-one {
   .hero-sec-two p {
     font-size: .9em !important;
     width: 18em !important;
+  }
+  .profiles {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=main.css.map */

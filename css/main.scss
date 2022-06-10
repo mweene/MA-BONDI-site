@@ -99,9 +99,7 @@ main {
             max-width: 7em;
 
             span {
-                background: -webkit-linear-gradient(#00b7ff, #1c77ff);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                color: #00b7ff;
             }
         }
 
@@ -358,5 +356,9 @@ main {
             font-size: .9em !important;
             width: 18em !important;
         }
+    }
+
+    .profiles {
+        flex-direction: column;
     }
 }
