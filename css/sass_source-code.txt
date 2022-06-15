@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;900&display=swap'); 
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+$bg-color: #000;
+$header-text: #ffffff;
+$sub-header-text: #b4b4b4;
+$paragraph-text: #dcdcdc;
+
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #000b2b;
+}
+
+
+// 1.0 Navbar
+header {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: .9em 2em;
+    }
+}
+
+.navbar {
+    .logo {
+        height: 3em;
+    }
+
+    ul {
+        list-style: none;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .cta {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.3em;
+        color: #fff;
+        background-color: transparent;
+        border: 1px #b6b6b6 solid;
+        border-radius: 5px;
+        padding: .5em 1.3em;
+        transition: 700ms ease-in;
+
+        &:hover {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+
+}
+// ./Navbar
+
+// 2.0 MAIN STYLING
+main {
+
+    .hero-sec-one {
+        margin-top: 12em;
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-bottom: 6em;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-content: center;
+        align-content: center;
+        gap: 7em;
+    }
+}
+
+.hero-sec-one {
+
+    .text {
+        h4 {
+            text-transform: uppercase;
+            font-size: 1.2em;
+            font-weight: 700;
+            color: $sub-header-text;
+            margin-bottom: .2em;
+            margin-top: .7em;
+        }
+
+        h1 {
+            text-transform: capitalize;
+            font-size: 6em;
+            font-weight: 900;
+            color: $header-text;
+            line-height: 1;
+            margin-bottom: .5em;
+            max-width: 7em;
+
+            span {
+                color: #00b7ff;
+            }
+        }
+
+        p {
+            font-size: 1.2em;
+            color: $paragraph-text;
+            line-height: 1.8;
+            margin-bottom: 1.9em;
+            width: 28em;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        gap: .6em;
+
+        .cta-img {
+            height: 3.5em;
+        }
+    }
+
+    .phone-sec-one {
+        .phone {
+            height: 43em;
+            margin-top: -2em;
+        }
+    }
+
+//bottom circle
+    .circle1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        //margin-right: -19em;
+        margin-top: 19.64em;
+        z-index: -9999;
+        filter: blur(100px);
+        opacity: .4;
+        height: 30em;
+    }
+
+//top circle
+    .circle2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -17em;
+        height: 30em;
+        z-index: -9999;
+        filter: blur(100px);
+        opacity: .5;
+    }
+}
+
+
+.hero-sec-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-content: center;
+    gap: 4em;
+    margin: .4em 4.5em;
+
+    .phone {
+        height: 45em;
+    }
+
+    .text {
+        margin-top: 2em;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: 700;
+        color: $sub-header-text;
+        margin-bottom: .2em;
+        margin-top: .7em;
+    }
+
+    h2 {
+        text-transform: capitalize;
+        font-size: 4.5em;
+        font-weight: 900;
+        color: $header-text;
+        line-height: 1;
+        margin-bottom: .5em;  
+        width: 9em;
+    }
+
+    p {
+        font-size: 1.2em;
+        color: $paragraph-text;
+        line-height: 1.8;
+        margin-bottom: 1.9em;
+        width: 29em;
+    }
+
+    ul {
+        li {
+            display: flex;
+            gap: 2em;
+            line-height: 1.8;
+
+            h5 {
+                font-size: 1.5em;
+                font-weight: 300;
+                color: #fff;
+            }  
+        }
+    }
+}
+
+//Media queries 
+
+@media screen and (max-width: 480px) {
+    header {
+        .navbar {
+            justify-content: center;
+            align-content: center;
+        }
+    }
+    .nav-list {
+        display: none;
+    }
+
+    .hero-sec-one,
+    .hero-sec-two {
+        display: block !important;
+    }
+
+    .hero-sec-one {
+        margin: 4.5em 1.9em !important;
+        h4 {
+            font-size: .7em !important;
+        }
+        h1 {
+            font-size: 2.3em !important;
+            width: 7em;
+        }
+        p {
+            font-size: .9em !important;
+            width: 18em !important;
+        }
+
+        .buttons {
+            display: block;
+
+            .cta-img {
+                height: 2em !important;
+            }
+        }
+
+        .phone-sec-one {
+            .phone {
+                height: 30em !important;
+                margin-top: 2em !important;
+            }
+        }
+
+    }
+
+    .hero-sec-two {
+        .phone {
+            height: 30em;
+        }
+
+        h4 {
+            font-size: .7em !important;
+        }
+        h2 {
+            font-size: 2em !important;
+            width: 7em;
+        }
+        p {
+            font-size: .9em !important;
+            width: 18em !important;
+        }
+    }
+
+}

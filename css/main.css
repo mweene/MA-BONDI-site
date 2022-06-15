@@ -183,6 +183,7 @@ main .hero-sec-one {
   color: #ffffff;
   line-height: 1;
   margin-bottom: .5em;
+  width: 9em;
 }
 
 .hero-sec-two p {
@@ -190,6 +191,7 @@ main .hero-sec-one {
   color: #dcdcdc;
   line-height: 1.8;
   margin-bottom: 1.9em;
+  width: 29em;
 }
 
 .hero-sec-two ul li {
@@ -203,112 +205,7 @@ main .hero-sec-one {
 .hero-sec-two ul li h5 {
   font-size: 1.5em;
   font-weight: 300;
-}
-
-.profiles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 7em;
-}
-
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding: .4em 1.5em;
-  border-radius: 15px;
   color: #fff;
-  width: 27%;
-  margin-top: 7em;
-}
-
-.card .outer-layer {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  justify-self: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #111928bf;
-  height: 29em;
-  margin: 0 .5em;
-  border-radius: 22px;
-  border: 1px solid #ffffff20;
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
-          backdrop-filter: blur(14px) saturate(180%);
-}
-
-.card .house {
-  height: 11em;
-}
-
-.card h3 {
-  text-transform: capitalize;
-  font-size: 1.2em;
-  margin: .7em .6em;
-}
-
-.card p {
-  margin: 0 .6em;
-  font-weight: 200;
-  color: #e7dede;
-  line-height: 1.6;
-}
-
-.card .buttons {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 2.5em;
-  gap: .7em;
-}
-
-.card button {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  border: 1px solid #fff;
-  padding: .8em 1.2em;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: .8em;
-  width: 60%;
-  border-radius: 6px;
-  color: #fff;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.jumbotron {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  justify-self: center;
-  background-color: aquamarine;
-  border-radius: 30px;
-  height: 60vh;
 }
 
 @media screen and (max-width: 480px) {
