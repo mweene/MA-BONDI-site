@@ -11,10 +11,9 @@
 body {
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #000b2b;
 }
 
-header .navbar {
+header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,249 +22,86 @@ header .navbar {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin: .9em 2em;
+  margin: 1.2rem 1rem;
 }
 
-.navbar .logo {
-  height: 3em;
+header .menu {
+  display: none;
 }
 
-.navbar ul {
-  list-style: none;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
+.logo {
+  height: 2.2rem;
 }
 
-.navbar .cta {
-  text-decoration: none;
+.cta {
   text-transform: capitalize;
-  font-size: 1.3em;
-  color: #fff;
-  background-color: transparent;
-  border: 1px #b6b6b6 solid;
-  border-radius: 5px;
-  padding: .5em 1.3em;
-  -webkit-transition: 700ms ease-in;
-  transition: 700ms ease-in;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: .6rem 1rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #00abb8;
+  color: white;
 }
 
-.navbar .cta:hover {
-  color: #000;
-  background-color: #fff;
+.hero {
+  background-color: #ccf7fa;
 }
 
-main .hero-sec-one {
-  margin-top: 12em;
-  margin-left: 4em;
-  margin-right: 4em;
-  margin-bottom: 6em;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
+.hero .text {
+  padding: 4rem 2.5rem;
+}
+
+.hero .text h3 {
+  text-transform: uppercase;
+  color: #4a4a4a;
+  font-size: 1rem;
+  margin-bottom: .4rem;
+  color: #0098a3;
+}
+
+.hero .text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.hero .text p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+}
+
+.hero .text .buttons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: .7rem;
+  margin-top: 2rem;
+}
+
+.hero .text .buttons .apple-cta,
+.hero .text .buttons .google-cta {
+  height: 2.5rem;
+}
+
+.hero .hero-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  gap: 7em;
 }
 
-.hero-sec-one .text h4 {
-  text-transform: uppercase;
-  font-size: 1.2em;
-  font-weight: 700;
-  color: #b4b4b4;
-  margin-bottom: .2em;
-  margin-top: .7em;
-}
-
-.hero-sec-one .text h1 {
-  text-transform: capitalize;
-  font-size: 6em;
-  font-weight: 900;
-  color: #ffffff;
-  line-height: 1;
-  margin-bottom: .5em;
-  max-width: 7em;
-}
-
-.hero-sec-one .text h1 span {
-  color: #00b7ff;
-}
-
-.hero-sec-one .text p {
-  font-size: 1.2em;
-  color: #dcdcdc;
-  line-height: 1.8;
-  margin-bottom: 1.9em;
-  width: 28em;
-}
-
-.hero-sec-one .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: .6em;
-}
-
-.hero-sec-one .buttons .cta-img {
-  height: 3.5em;
-}
-
-.hero-sec-one .phone-sec-one .phone {
-  height: 43em;
-  margin-top: -2em;
-}
-
-.hero-sec-one .circle1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 19.64em;
-  z-index: -9999;
-  -webkit-filter: blur(100px);
-          filter: blur(100px);
-  opacity: .4;
-  height: 30em;
-}
-
-.hero-sec-one .circle2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: -17em;
-  height: 30em;
-  z-index: -9999;
-  -webkit-filter: blur(100px);
-          filter: blur(100px);
-  opacity: .5;
-}
-
-.hero-sec-two {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  gap: 4em;
-  margin: .4em 4.5em;
-}
-
-.hero-sec-two .phone {
-  height: 45em;
-}
-
-.hero-sec-two .text {
-  margin-top: 2em;
-}
-
-.hero-sec-two h4 {
-  text-transform: uppercase;
-  font-size: 1.2em;
-  font-weight: 700;
-  color: #b4b4b4;
-  margin-bottom: .2em;
-  margin-top: .7em;
-}
-
-.hero-sec-two h2 {
-  text-transform: capitalize;
-  font-size: 4.5em;
-  font-weight: 900;
-  color: #ffffff;
-  line-height: 1;
-  margin-bottom: .5em;
-  width: 9em;
-}
-
-.hero-sec-two p {
-  font-size: 1.2em;
-  color: #dcdcdc;
-  line-height: 1.8;
-  margin-bottom: 1.9em;
-  width: 29em;
-}
-
-.hero-sec-two ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 2em;
-  line-height: 1.8;
-}
-
-.hero-sec-two ul li h5 {
-  font-size: 1.5em;
-  font-weight: 300;
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  header .navbar {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-  .nav-list {
-    display: none;
-  }
-  .hero-sec-one,
-  .hero-sec-two {
-    display: block !important;
-  }
-  .hero-sec-one {
-    margin: 4.5em 1.9em !important;
-  }
-  .hero-sec-one h4 {
-    font-size: .7em !important;
-  }
-  .hero-sec-one h1 {
-    font-size: 2.3em !important;
-    width: 7em;
-  }
-  .hero-sec-one p {
-    font-size: .9em !important;
-    width: 18em !important;
-  }
-  .hero-sec-one .buttons {
-    display: block;
-  }
-  .hero-sec-one .buttons .cta-img {
-    height: 2em !important;
-  }
-  .hero-sec-one .phone-sec-one .phone {
-    height: 30em !important;
-    margin-top: 2em !important;
-  }
-  .hero-sec-two .phone {
-    height: 30em;
-  }
-  .hero-sec-two h4 {
-    font-size: .7em !important;
-  }
-  .hero-sec-two h2 {
-    font-size: 2em !important;
-    width: 7em;
-  }
-  .hero-sec-two p {
-    font-size: .9em !important;
-    width: 18em !important;
-  }
-  .profiles {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+.hero .hero-img .img {
+  height: 33rem;
 }
 /*# sourceMappingURL=main.css.map */

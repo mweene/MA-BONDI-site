@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: 1.2rem 1rem;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+// Mobile Styling 
+.logo {
+    height: 2.2rem;
+}
+
+.cta {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .6rem 1rem;
+    appearance: none;
+    border: none;
+    border-radius: 4px;
+    background-color: hsl(184, 100%, 36%);
+    color: hsl(0, 0%, 100%);
+}
+
+.hero {
+    background-color: hsl(184, 82%, 89%);
+
+    .text {
+        padding: 4rem 2.5rem;
+
+        h3 {
+            text-transform: uppercase;
+            color: hsl(0, 0%, 29%);
+            font-size: 1rem;
+            margin-bottom: .4rem;
+            color: hsl(184, 100%, 32%);
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: capitalize;
+            line-height: 1;
+        }
+        p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-top: 2rem;
+        }
+
+        .buttons {
+            display: inline-flex;
+            gap: .7rem;
+            margin-top: 2rem;
+
+            .apple-cta,
+            .google-cta {
+                height: 2.5rem;
+            }
+        }
+
+    }
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        .img {
+            height: 33rem;
+        }
+    }
+} // ./hero
