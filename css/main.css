@@ -13,6 +13,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,15 +50,16 @@ header .menu {
           appearance: none;
   border: none;
   border-radius: 4px;
-  background-color: #00abb8;
+  background-color: teal;
   color: white;
 }
 
 .hero {
-  background-color: #ccf7fa;
+  padding-top: 6rem;
 }
 
 .hero .text {
+  z-index: 2;
   padding: 4rem 2.5rem;
 }
 
@@ -61,7 +68,7 @@ header .menu {
   color: #4a4a4a;
   font-size: 1rem;
   margin-bottom: .4rem;
-  color: #0098a3;
+  color: teal;
 }
 
 .hero .text h1 {
@@ -69,6 +76,10 @@ header .menu {
   font-weight: 900;
   text-transform: capitalize;
   line-height: 1;
+}
+
+.hero .text h1 span {
+  color: tomato;
 }
 
 .hero .text p {
@@ -102,6 +113,22 @@ header .menu {
 }
 
 .hero .hero-img .img {
-  height: 33rem;
+  height: 34rem;
+}
+
+.featured .list-wrapper {
+  height: 30vh;
+  width: 100%;
+  background: #a5a5a5;
+}
+
+.featured h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #303030;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */
