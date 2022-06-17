@@ -2,6 +2,10 @@
 
 $gradient: linear-gradient(to right, #38ef7d, #11998e);
 
+:root {
+    font-size: 16px;
+}
+
 *,
 *::before,
 *::after {
@@ -20,6 +24,7 @@ header {
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 1;
     nav {
         display: flex;
         justify-content: space-between;
@@ -53,12 +58,10 @@ header {
     padding-top: 6rem;
 
     .text {
-        z-index: 2;
-        padding: 4rem 2.5rem;
+        padding: 4rem 2rem;
 
         h3 {
             text-transform: uppercase;
-            color: hsl(0, 0%, 29%);
             font-size: 1rem;
             margin-bottom: .4rem;
             color: hsl(180, 100%, 25%);
@@ -70,13 +73,14 @@ header {
             line-height: 1;
 
             span {
-                color: hsl(9, 100%, 64%);
+                color: hsl(180, 100%, 22%);
             }
         }
         p {
             font-size: 1.05rem;
-            line-height: 1.6;
+            line-height: 1.688;
             margin-top: 2rem;
+            color: hsl(0, 0%, 36%);
         }
 
         .buttons {
@@ -92,7 +96,7 @@ header {
 
     }
 
-    .hero-img {
+    .img-wrapper {
         display: flex;
         justify-content: center;
         align-content: center;
@@ -104,20 +108,55 @@ header {
 
 } // ./hero
 
-.featured {
-    
-    .list-wrapper {
-        height: 30vh;
-        width: 100%;
-        background: #a5a5a5; 
+.features {
+    background-color: hsl(180, 100%, 89%);
+    margin: 6rem 0;
+    width: 100%;
+
+    .wrapper {
+        padding: 6rem 2rem;
     }
-    h2 {
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: 600;
-        font-size: 1.7rem;
-        color: hsl(0, 0%, 19%);
-        margin-top: 3.5rem;
-        margin-bottom: 1.5rem;
-    } 
+
+    .text {
+        h3 {
+            text-transform: uppercase;
+            font-size: 1rem;
+            margin-bottom: .4rem;
+            color: hsl(180, 98%, 19%);
+        }
+        h2 {
+            text-transform: capitalize;
+            font-size: 2.3rem;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.688;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .phone {
+        height: 27rem;
+    }
+
+    .card {
+        background-color: hsl(0, 0%, 3%);
+        border-radius: 7px;
+        height: 30vh;
+        opacity: .6;
+
+        ul {
+            list-style: none;
+            color: #fff;
+        }
+    }
 }
