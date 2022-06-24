@@ -58,27 +58,26 @@ header {
     padding-top: 6rem;
 
     .text {
-        padding: 4rem 2rem;
+        padding: 4rem 1.5rem;
 
         h3 {
             text-transform: uppercase;
             font-size: 1rem;
-            margin-bottom: .4rem;
-            color: hsl(180, 100%, 25%);
+            color: hsl(180, 100%, 28%);
         }
         h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             font-weight: 900;
             text-transform: capitalize;
             line-height: 1;
 
             span {
-                color: hsl(180, 100%, 22%);
+                color: hsl(180, 100%, 28%);
             }
         }
         p {
-            font-size: 1.05rem;
-            line-height: 1.688;
+            font-size: 1.2rem;
+            line-height: 1.588;
             margin-top: 2rem;
             color: hsl(0, 0%, 36%);
         }
@@ -108,9 +107,37 @@ header {
 
 } // ./hero
 
+.companies {
+    margin-top: 4rem;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+        width: 100%;
+        box-shadow: 0px 0px 12px 1px hsla(0, 0%, 0%, 0.11);
+        padding: 1rem 0;
+        overflow: hidden;
+        animation: company 4000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+    .company {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        color: hsl(0, 0%, 49%);
+    }
+    .bold {
+        font-weight: 900;
+        font-size: 2.1rem;
+        text-transform: capitalize !important;
+    }
+}
+
+
 .features {
-    background-color: hsl(180, 100%, 89%);
-    margin: 6rem 0;
+    background-color: hsl(0, 0%, 0%);
+    margin: 5rem 0;
     width: 100%;
 
     .wrapper {
@@ -122,19 +149,38 @@ header {
             text-transform: uppercase;
             font-size: 1rem;
             margin-bottom: .4rem;
-            color: hsl(180, 98%, 19%);
+            color: hsl(180, 100%, 35%);
         }
         h2 {
             text-transform: capitalize;
-            font-size: 2.3rem;
+            font-size: 3.3rem;
             font-weight: 800;
             line-height: 1;
             margin-bottom: 1.5rem;
+            color: hsl(0, 0%, 100%);
         }
         p {
-            font-size: 1rem;
-            line-height: 1.688;
+            font-size: 1.2rem;
+            line-height: 1.588;
             margin-bottom: 2rem;
+            color: hsl(0, 0%, 100%);
+        }
+    }
+
+    .card {
+        //background-color: hsl(0, 0%, 100%);
+        //background-image: linear-gradient(122deg, #0ff, #256bd7);
+        background-color: #20bf55;
+        background-image: linear-gradient(315deg, #20bf55 0%, #00aada 74%);
+        border: rgba(255, 255, 255, 0.308);
+        border-radius: 7px;
+        height: 45vh;
+        width: 100%;
+        margin-bottom: 3.5rem;
+
+        ul {
+            list-style: none;
+            color: hsl(0, 0%, 0%);
         }
     }
 
@@ -146,17 +192,5 @@ header {
 
     .phone {
         height: 27rem;
-    }
-
-    .card {
-        background-color: hsl(0, 0%, 3%);
-        border-radius: 7px;
-        height: 30vh;
-        opacity: .6;
-
-        ul {
-            list-style: none;
-            color: #fff;
-        }
     }
 }

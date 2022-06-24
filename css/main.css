@@ -64,30 +64,29 @@ header .menu {
 }
 
 .hero .text {
-  padding: 4rem 2rem;
+  padding: 4rem 1.5rem;
 }
 
 .hero .text h3 {
   text-transform: uppercase;
   font-size: 1rem;
-  margin-bottom: .4rem;
-  color: teal;
+  color: #008f8f;
 }
 
 .hero .text h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
   text-transform: capitalize;
   line-height: 1;
 }
 
 .hero .text h1 span {
-  color: #007070;
+  color: #008f8f;
 }
 
 .hero .text p {
-  font-size: 1.05rem;
-  line-height: 1.688;
+  font-size: 1.2rem;
+  line-height: 1.588;
   margin-top: 2rem;
   color: #5c5c5c;
 }
@@ -120,9 +119,46 @@ header .menu {
   height: 34rem;
 }
 
+.companies {
+  margin-top: 4rem;
+}
+
+.companies .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.3rem;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.11);
+          box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.11);
+  padding: 1rem 0;
+  overflow: hidden;
+  -webkit-animation: company 4000ms;
+          animation: company 4000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.companies .company {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #7d7d7d;
+}
+
+.companies .bold {
+  font-weight: 900;
+  font-size: 2.1rem;
+  text-transform: capitalize !important;
+}
+
 .features {
-  background-color: #c7ffff;
-  margin: 6rem 0;
+  background-color: black;
+  margin: 5rem 0;
   width: 100%;
 }
 
@@ -134,21 +170,38 @@ header .menu {
   text-transform: uppercase;
   font-size: 1rem;
   margin-bottom: .4rem;
-  color: #016060;
+  color: #00b3b3;
 }
 
 .features .text h2 {
   text-transform: capitalize;
-  font-size: 2.3rem;
+  font-size: 3.3rem;
   font-weight: 800;
   line-height: 1;
   margin-bottom: 1.5rem;
+  color: white;
 }
 
 .features .text p {
-  font-size: 1rem;
-  line-height: 1.688;
+  font-size: 1.2rem;
+  line-height: 1.588;
   margin-bottom: 2rem;
+  color: white;
+}
+
+.features .card {
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #00aada 74%);
+  border: rgba(255, 255, 255, 0.308);
+  border-radius: 7px;
+  height: 45vh;
+  width: 100%;
+  margin-bottom: 3.5rem;
+}
+
+.features .card ul {
+  list-style: none;
+  color: black;
 }
 
 .features .img {
@@ -164,17 +217,5 @@ header .menu {
 
 .features .phone {
   height: 27rem;
-}
-
-.features .card {
-  background-color: #080808;
-  border-radius: 7px;
-  height: 30vh;
-  opacity: .6;
-}
-
-.features .card ul {
-  list-style: none;
-  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
