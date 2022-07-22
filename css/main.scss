@@ -35,16 +35,15 @@ html {
 
 main {
     .hero-one {
-        padding: 5em 0;
+        padding: 5.7em 0;
 
         h1 {
             text-align: center;
             text-transform: capitalize;
             font-size: 2.5em;
-            font-weight: 800;
             line-height: 1.2;
             padding-bottom: .8em;
-            color: #17514b;
+            color: #000000;
         }
 
         p {
@@ -85,20 +84,120 @@ main {
             text-align: center;
             text-transform: capitalize;
             font-size: 1.8em;
+            color: #009587;
             padding-bottom: .4em;
           }
 
           .sub-title {
             text-align: center;
             font-size: .9em;
-            color: #4a4a4a;
+            color: #555;
             line-height: 1.5;
             padding: 0 1em;
           }
 
           .img-sec {
             margin: 2em;
+            text-align: center;
           }
+
+          .number {
+            height: 3em;
+            margin-top: 1.4em;
+          }
+
+          h2 {
+            text-transform: capitalize;
+            font-size: 1.2em;
+            color: #282828e8;
+          }
+
+          p {
+            font-size: .9em;
+            color: #555;
+          }
+
+          .hero-two-img {
+            display: flex;
+            place-content: center;
+            padding-top: 1.2em;
+
+            img {
+                height: 29em;
+            }
+          }
+    }
+
+    .hero-three {
+      h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.8em;
+        margin-top: 4.5em;
+        margin-bottom: .72em;
+      }
+
+      .text {
+        p {
+          text-align: center;
+          font-size: .9em;
+          padding: 0 1.7em;
+          color: #424242;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        place-content: center;
+        gap: .5em;
+        margin: 1.5em 0;
+      }
+
+      .cta {
+        font-size: .8em;
+        text-transform: capitalize;
+        padding: .7em 2.4em;
+        border-radius: .4em;
+        border: none;
+        cursor: pointer;
+      }
+
+      .cta1 {
+        border: 2px solid #000000b9;
+        background-color: transparent;
+      }
+
+      .cta2 {
+        background-color: #009587;
+        color: #fff;
+      }
+    }
+
+    .hero-three-img {
+      display: flex;
+      place-content: center;
+      
+      img {
+        height: 25em;
+      }
+    }
+
+    .hero-three-text {
+      padding: 2em;
+      margin-top: .4em;
+
+      img {
+        height: 3em;
+        filter: grayscale(100%);
+        margin: .3em 0;
+      }
+
+      p {
+        text-align: inherit;
+        font-size: .9em;
+        color: #555;
+        padding-bottom: 2em;  
+      }
     }
 
     .hero-four {
