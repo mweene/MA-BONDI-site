@@ -30,7 +30,7 @@ html {
   height: 2em;
 }
 
-.navbar .menu {
+.navbar .menu-icon {
   height: 1.2em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -329,5 +329,35 @@ footer .bottom-text p {
   font-size: .8em;
   color: #868686;
   padding-bottom: .4em;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2em 4em;
+    gap: 0;
+  }
+  .navbar .logo {
+    height: 3em;
+  }
+  .navbar .menu-icon {
+    display: none;
+  }
+  .navbar .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    gap: 1.5em;
+    list-style: none;
+  }
+  .navbar .nav-link {
+    font-size: 1.4em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+  }
 }
 /*# sourceMappingURL=main.css.map */

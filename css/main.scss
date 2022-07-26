@@ -23,7 +23,7 @@ html {
         height: 2em;
     }
 
-    .menu {
+    .menu-icon {
         height: 1.2em;
         align-self: center;
     }
@@ -307,4 +307,35 @@ footer {
         padding-bottom: .4em;
       }
     }
+}
+
+//DESKTOP MEDIA QUERIES
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 2em 4em;
+    gap: 0;
+    .logo {
+      height: 3em;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .nav-list {
+      display: flex;
+      place-content: center;
+      gap: 1.5em;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-size: 1.4em;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #000;
+    }
+  }
 }
