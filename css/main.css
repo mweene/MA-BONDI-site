@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 :root {
   font-size: 16px;
 }
@@ -32,6 +33,10 @@ html {
   display: none;
 }
 
+.nav-link {
+  font-family: "PT Sans", sans-serif;
+}
+
 main .hero-one {
   padding: 7.4em 0;
 }
@@ -42,6 +47,7 @@ main .hero-one h1 {
   text-align: center;
   text-transform: capitalize;
   font-size: 2.2em;
+  font-weight: 700;
   line-height: 1.3;
   padding: 0.5em;
   color: #000000;
@@ -74,19 +80,19 @@ main .hero-one .image-one {
 main .hero-two {
   margin: 0.8em 0;
   padding: 4em 0;
-  background-color: #d9e4e3;
+  background-color: #000000;
 }
 main .hero-two .title {
   text-align: center;
   text-transform: capitalize;
   font-size: 1.8em;
-  color: #000000;
+  color: #ffffff;
   padding-bottom: 0.4em;
 }
 main .hero-two .sub-title {
   text-align: center;
   font-size: 0.9em;
-  color: #555;
+  color: #e8e8e8;
   line-height: 1.5;
   padding: 0 1em;
 }
@@ -101,11 +107,11 @@ main .hero-two .number {
 main .hero-two h2 {
   text-transform: capitalize;
   font-size: 1.2em;
-  color: rgba(40, 40, 40, 0.9098039216);
+  color: rgba(255, 255, 255, 0.9098039216);
 }
 main .hero-two p {
   font-size: 0.9em;
-  color: #555;
+  color: #e4e3e3;
 }
 main .hero-two .hero-two-img {
   display: flex;
@@ -114,6 +120,9 @@ main .hero-two .hero-two-img {
 }
 main .hero-two .hero-two-img img {
   height: 29em;
+}
+main .hero-two h3 {
+  color: #007e72;
 }
 main .hero-three {
   margin-top: 3.4em;
@@ -261,6 +270,32 @@ footer .bottom-text p {
   padding-bottom: 0.4em;
 }
 
+.hero-one {
+  position: relative;
+}
+
+.circle-gradient {
+  padding: 7em;
+  background-color: #006e63;
+  background-image: linear-gradient(219deg, #00beb5, #6e004d);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.circle-gradient2 {
+  padding: 7em;
+  background-color: #006e63;
+  background-image: linear-gradient(219deg, #00beb5, #6e004d);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
 @media screen and (min-width: 769px) {
   .navbar {
     justify-content: space-between;
@@ -295,7 +330,7 @@ footer .bottom-text p {
     gap: 1em;
     place-content: center;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 7em;
+    margin: 0 8em;
   }
   main .hero-one .text-wrapper {
     padding: unset;
@@ -303,7 +338,6 @@ footer .bottom-text p {
   }
   main .hero-one h1 {
     font-size: 4em;
-    font-weight: 900;
     text-align: start;
     padding: 0;
   }
@@ -325,7 +359,7 @@ footer .bottom-text p {
     justify-content: end;
   }
   main .hero-one .image-one {
-    height: 40em;
+    height: 41em;
   }
   main .hero-two .wrapper {
     margin: 0 7em;
@@ -335,8 +369,6 @@ footer .bottom-text p {
   }
   main .hero-two .title {
     font-size: 2.8em;
-    font-weight: 900;
-    color: #424242;
   }
   main .hero-two .sub-title {
     font-size: 1.2em;
